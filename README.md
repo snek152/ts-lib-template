@@ -2,7 +2,7 @@
 
 > An easy way to create a TypeScript library without hassle.
 
-`ts-lib-template` is a template for creating a TypeScript library. It comes built in with many common utilities, such as git hooks
+`ts-lib-template` is a template for creating a TypeScript library. It comes built in with many common utilities, such as git hooks, documentation generators, version bumps, and more.
 
 ## Getting Started
 
