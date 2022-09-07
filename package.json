@@ -10,7 +10,7 @@
     "build": "npm run build:esm && npm run build:cjs",
     "build:esm": "tsc",
     "build:cjs": "tsc --module commonjs --outDir dist/cjs",
-    "dev": "watch -p 'src/**/!(*index).ts' -c 'npm run build && npm run make:barrels'",
+    "dev": "watch -p 'src/**/!(*index).ts' -c 'npm run make:barrels && npm run build'",
     "prepare": "husky install",
     "make:docs": "typedoc src/index.ts",
     "make:barrels": "barreler ./src && rm -rf ./index.ts"
